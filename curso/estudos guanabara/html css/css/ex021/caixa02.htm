@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grupo em tags</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #d0f7f7;
+        }
+        header{
+            background-color: #bed3da;
+            padding: 10px;
+            margin 10px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 1px 1px rgba(0, 0, 0, 0.527);
+        }
+
+        main{
+            background-color: rgb(127, 229, 255);
+            color: #21084b;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        article{
+            background-color: #c8dffa;
+        }
+        article > aside{
+            background-color: #73b1ca;
+        }
+        nav{
+            background-color: #73b1ca;
+            black;
+            border-radius: 10px 20px;
+            box-shadow: 1px 1px rgba(0, 0, 0, 0.589);
+        }
+        nav > a{
+            background-color: #ca8282
+            text-decoration: dashed;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            margin-right: 30px;
+            
+
+        }
+        nav > a:hover{
+            color: darkmagenta;
+            background-color: aqua;
+        }
+        footer{
+            background-color: #85b1c2;
+            color: blue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px 10px;
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #assunto{
+            color: black;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(53, 36, 129);
+            margin: 30px;
+            border-radius: 50px;
+            box-shadow: 2px 2px rgba(0, 0, 0, 0.521);
+        }
+    </style>
+</head>
+<body>
+    
+<header>
+
+<h1>Cabeçalho</h1>
+<nav>
+    
+    <a href="#">link </a>
+    <a href="#">link </a>
+    <a href="#">link </a>
+    <a href="#">link </a>
+    <a href="#">link </a>
+
+</nav>
+</header>
+<main>
+    <section id="assunto">
+<p>esportes politica tecnologia</p>
+    </section>
+<section id="noticias">
+    <article>
+        <h2>article</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque id aut ipsa accusamus iste facilis voluptatem qui quam amet cum. Iste culpa cupiditate harum, eligendi quae natus veniam itaque animi.</p>
+                <aside>
+            <p>escrito por rodrigo carielo</p>
+        </aside>
+    </article>
+</section>
+
+</main>
+
+
+
+
+<footer>
+<p>Rodapé</p>
+</footer>
+<div id="bola"> </div>
+</body>
+</html>
